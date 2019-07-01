@@ -14,4 +14,5 @@ Consiste em duas telas:
 		- Trazer a posição do local que buscou no mapa.
 
 Para atuação de busca de endereço e retorno dos dados. Utilizar a API do Google Maps de Geolocalização.
+
 Considerar o desenvolvimento responsivo.
