@@ -7,7 +7,7 @@ Consiste em duas telas:
 	Ao acessar deve ser redirecionado para a tela de busca.
 
 - Busca de Região
-	- Essa estapa serão três etapas:
+	- Essa etapa serão três etapas:
 		- Buscar endereço.
 		- Trazer resultado das informações (Endereço, Cidade, Estado, Latitude e Longitude)
 			- Gravar no local storage (Latidade e Longitude).
