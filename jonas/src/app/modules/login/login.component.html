@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row justify-content-center h-100">
+        <div class="col-md-4 login">
+            <div class="card card-block">
+                <div class="card-body">
+                    <form (ngSubmit)="submit()" [formGroup]="form">
+                        <img class="mx-auto d-block" src="./assets/images/download.svg" alt="">
+                        <br>
+                        <div class="form-group">
+                            <label for="inputEmail">Usuário</label>
+                            <input formControlName="email" type="email" name="email" id="email" class="form-control"
+                                required autofocus>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword">Senha</label>
+                            <input formControlName="password" type="password" id="password" name="password"
+                                class="form-control" required>
+                        </div>
+                        <br>
+                        <button class="btn btn-sm btn-primary float-right" type="submit">Entrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
